@@ -1,0 +1,31 @@
+.site-footer {
+    background-color: $dark-gray-3;
+    color: $gray;
+
+    &__block {
+        h3 {
+            color: $white;
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    .contact-info {
+        span {
+            display: block;
+        }
+    }
+
+    .link-list {
+        display: flex;
+    }
+
+    a {
+        color: $gray;
+    }
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

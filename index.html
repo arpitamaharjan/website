@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="vendor/slick/slick.css">
+	<link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <!-- Add Following Select2 Style if you're using select2 selector; This is a basic style please use sass to add your own css for select2 -->
+    <!-- <link rel="stylesheet" href="assets/css/select2.min.css"> -->
+    <title>Absolute Clean</title>
+</head>
+<body>
+	<div class="site-wrapper">
+		<header id="header" class="site-header">
+			<div class="container">
+				<nav class="site-nav">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand" href="#">
+							<img src="assets/images/logo.svg" alt="Logo image" width="31" height="23" loading="lazy">
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Work</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Process</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Services</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Testimonials</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</nav> <!-- / .site-nav -->
+			</div>	
+		</header> <!-- / .site-header -->
+
+		<main id="main" class="site-content">
+
+			<section class="banner bg-cover">
+				<img src="assets/images/banner.jpg" alt="Banner image" width="1920" height="1307" loading="lazy">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7"></div>
+						<div class="col-lg-5">
+							<div class="banner-content mt-3">
+								<div class="banner-title mb-lg-2 mb-1">
+									<h1>We Design and Develop</h1>
+								</div>
+								<p>We are new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about desigining websites and mobile apps.</p>
+								<div class="btn-wrap mt-2">
+									<a href="#" class="btn btn-primary" >Contact Us</a>
+								</div>
+							</div> <!-- / .banner-content -->
+						</div>
+					</div>
+				</div>
+			</section> <!-- / .banner -->
+
+			<section class="about py-xl-6 py-lg-4 py-3">
+				<div class="container">
+					<div class="about-content text-center">
+						<div class="block-title mb-lg-2 mb-1">
+							<h2>About us</h2>
+						</div>
+						<p>Divide have don't man wherein air fourth.Own itself make have night won't make. A you under Seed appear which good give.Own give air without fowl moveth dry first heaven fruit, dominion ahe'd won't very all.</p>
+					</div> <!-- / .about-content -->
+				</div>
+			</section> <!-- / .about -->
+
+			<section class="skill bg-cover py-xl-5 py-lg-4 py-3">
+				<img src="assets/images/white-ribbon.jpg" alt="" width="960" height="641" loading="lazy">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="block-title mb-2">
+								<h2>Professional skills</h2>
+							</div>
+							<div class="progress-block mb-2">
+								<span>Ui/Ux design 75%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div> <!-- / .progress-block -->
+							<div class="progress-block mb-2">
+								<span>Web development 90%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div> <!-- / .progress-block -->
+							<div class="progress-block mb-2">
+								<span>Marketing 65%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div> <!-- / .progress-block -->
+						</div>
+						<div class="col-lg-6"></div>
+					</div>
+				</div>
+			</section> <!-- / .skill -->
+
+			<section class="counter">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="count-block">
+								<div class="count-icon">
+									<i class="icon-suitcase"></i>
+								</div>
+								<div class="count-content">
+									<h4>548</h4>
+									<span>Projects Completed</span>
+								</div>
+							</div> <!-- / .count-block -->
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="count-block">
+								<div class="count-icon">
+									<i class="icon-clock"></i>
+								</div>
+								<div class="count-content">
+									<h4>1465</h4>
+									<span>Working Hours</span>
+								</div>
+							</div> <!-- / .count-block -->
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="count-block">
+								<div class="count-icon">
+									<i class="icon-star"></i>
+								</div>
+								<div class="count-content">
+									<h4>612</h4>
+									<span>Positive Feedbacks</span>
+								</div>
+							</div> <!-- / .count-block -->
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="count-block">
+								<div class="count-icon">
+									<i class="icon-heart"></i>
+								</div>
+								<div class="count-content">
+									<h4>735</h4>
+									<span>Happy Clients</span>
+								</div>
+							</div> <!-- / .count-block -->
+						</div>
+					</div>
+				</div>
+			</section> <!-- / .counter -->
+
+			<section class="portfolio">
+				<div class="container-fluid">
+					<div class="portfolio-list">
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-01.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-01.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-01.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Business Card</h3>
+								<span>Photography</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-02.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-02.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-02.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Mobile App</h3>
+								<span>Design</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-05.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-05.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-05.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Shooping Bag</h3>
+								<span>Branding</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-03.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-03.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-03.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Hardcover Book</h3>
+								<span>Branding</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-08.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-08.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-08.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Minimal Label</h3>
+								<span>Branding</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-06.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-06.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-06.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Minimal Bag</h3>
+								<span>Design</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-07.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-07.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-07.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Honey Mockup</h3>
+								<span>Design</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+						<div class="portfolio-item">
+							<picture class="portfolio-media">
+								<source srcset="assets/images/portfolio-04.webp" type="image/webp">
+								<source srcset="assets/images/portfolio-04.jpg" type="image/jpg">
+								<img src="assets/images/portfolio-04.jpg" width="800" height="800" loading="lazy" alt="Banner media">
+							</picture>
+							<div class="portfolio-info">
+								<h3>Ceramic Bottle</h3>
+								<span>Photography</span>
+							</div>
+						</div> <!-- / .portfolio-item -->
+					</div>
+				</div>
+			</section> <!-- / .portfolio -->
+
+			<section class="video py-xl-6 py-lg-4 py-3">
+				<div class="container">
+					<div class="block-title mb-3 text-center">
+						<h2>Our Work Process</h2>
+						<p>Was years it seasons was there form he in them together over that, third sixth gathered female creeping bearing behold years.</p>
+					</div>
+					<div class="bg-img bg-cover">
+						<img src="assets/images/plant.jpg" alt="Background image" width="960" height="634" loading="lazy">
+						<a href="https://youtu.be/D0UnqGm_miA" data-fancybox=""><i class="icon-play"></i></a>
+					</div>
+				</div>
+			</section> <!-- / .video -->
+
+			<section class="service py-xl-5 py-lg-4 py-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-diamond card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">UI/UX design</h5>
+									<p class="card-text">Be set fourth land god darkness make it wherein own</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-arc card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Web development</h5>
+									<p class="card-text">A she'd them bring void moving third she'd kind fill</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-mobile card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">App / Mobile</h5>
+									<p class="card-text">Dominion man second spirit he, earth they're creeping</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-joy card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Game Design</h5>
+									<p class="card-text">Dominion man second spirit he, earth they're creeping</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-aeroplane card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Seo / Marketing</h5>
+									<p class="card-text">Give won't after land fill creeping meat you, may</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-star card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Photography</h5>
+									<p class="card-text">Creepeth one seas cattle grass give moving saw give</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-magic-wand card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Graphic Design</h5>
+									<p class="card-text">Open, great whales air rule for, fourth life whales</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-card text-center mb-lg-2 mb-1">
+								<i class="icon-paint-bucket card-icon"></i>
+								<div class="card-body">
+									<h5 class="card-title">Illustrations</h5>
+									<p class="card-text">Whales likeness hath, man kind for them air two won't</p>
+								</div>
+							</div> <!-- / .service-card -->
+						</div>
+					</div>
+				</div>
+			</section> <!-- / .service -->
+
+			<section class="testimonial py-xl-5 py-lg-4 py-3">
+				<div class="container">
+					<div class="testimonial-slider">
+						<div class="testimonial-item">
+							<blockquote class="blockquote-card text-center">
+								<q>Outstanding job and exceeded all expections. It was a pleasure to work with them on a seziable first project and am looking forward to start the next one asap.</q>
+								<address class="author mt-2">
+									<cite>Michael Hopkins</cite>
+								</address>
+							</blockquote> <!-- / .blockquote-card -->
+						</div>
+						<div class="testimonial-item">
+							<blockquote class="blockquote-card text-center">
+								<q>Outstanding job and exceeded all expections. It was a pleasure to work with them on a seziable first project and am looking forward to start the next one asap.</q>
+								<address class="author mt-2">
+									<cite>Michael Hopkins</cite>
+								</address>
+							</blockquote> <!-- / .blockquote-card -->
+						</div>
+						<div class="testimonial-item">
+							<blockquote class="blockquote-card text-center">
+								<q>Outstanding job and exceeded all expections. It was a pleasure to work with them on a seziable first project and am looking forward to start the next one asap.</q>
+								<address class="author mt-2">
+									<cite>Michael Hopkins</cite>
+								</address>
+							</blockquote> <!-- / .blockquote-card -->
+						</div>
+					</div>
+				</div>
+			</section> <!-- / .testimonial -->
+
+			<section class="client py-2">
+				<div class="container">
+					<div class="client-slider">
+						<div class="client-item">
+							<picture>
+								<source srcset="assets/images/hamburger.webp" type="image/webp">
+								<source srcset="assets/images/hamburger.png" type="image/png">
+								<img src="assets/images/hamburger.png" width="800" height="800" loading="lazy" alt="Hamburger logo">
+							</picture>
+						</div> <!-- / .client-item -->
+						<div class="client-item">
+							<picture>
+								<source srcset="assets/images/pacific-coast.webp" type="image/webp">
+								<source srcset="assets/images/pacific-coast.png" type="image/png">
+								<img src="assets/images/pacific-coast.png" width="800" height="800" loading="lazy" alt="Pacific coast logo">
+							</picture>
+						</div> <!-- / .client-item -->
+						<div class="client-item">
+							<picture>
+								<source srcset="assets/images/mcqueen.webp" type="image/webp">
+								<source srcset="assets/images/mcqueen.png" type="image/png">
+								<img src="assets/images/mcqueen.png" width="800" height="800" loading="lazy" alt="Mcqueen logo">
+							</picture>
+						</div> <!-- / .client-item -->
+						<div class="client-item">
+							<picture>
+								<source srcset="assets/images/vintage.webp" type="image/webp">
+								<source srcset="assets/images/vintage.png" type="image/png">
+								<img src="assets/images/vintage.png" width="800" height="800" loading="lazy" alt="Vintage logo">
+							</picture>
+						</div> <!-- / .client-item -->
+						<div class="client-item">
+							<picture>
+								<source srcset="assets/images/handmade.webp" type="image/webp">
+								<source srcset="assets/images/handmade.png" type="image/png">
+								<img src="assets/images/handmade.png" width="800" height="800" loading="lazy" alt="Handmade logo">
+							</picture>
+						</div> <!-- / .client-item -->
+					</div>
+				</div>
+			</section> <!-- / .client -->
+
+		</main> <!-- / .site-content -->
+
+		<footer id="footer" class="site-footer py-6">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-sm-6">
+						<div class="site-footer__block mb-2 mb-lg-0">
+							<h3>Piroll Design, Inc.</h3>
+							<span class="copyright">&copy; Piroll. All rights reserved.<br>Design by robirurk. Code by nK.</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="contact-info mb-2 mb-lg-0">
+							<span class="mail"> 
+								<a href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a>
+							</span>
+							<span> 
+								<a href="tel:+44987065908">+44 987 065 908</a>
+							</span>
+						</div> <!-- / .contact-info -->
+					</div>
+					<div class="col-lg-2 col-sm-6">
+						<div class="link-list mb-2 mb-sm-0">
+							<ul class="list mr-6">
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Career</a></li>
+							</ul>
+							<ul class="list">
+								<li><a href="#">News</a></li>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Legals</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-1 col-sm-6">
+						<div class="social-link">
+							<ul class="list">
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Instagram</a></li>
+								<li><a href="#">Dribble</a></li>
+							</ul>
+						</div> <!-- / .social-link -->
+					</div>
+				</div>
+			</div>
+		</footer> <!-- / .site-footer -->
+
+	</div>
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/underscore-min.js"></script>
+<!-- Add Following Select2 Style if you're using select2 selector; -->
+<!-- <script src="assets/js/select2.min.js"></script> -->
+<script src="assets/js/validate.min.js"></script>
+<script src="assets/js/builder.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/fancybox/jquery.fancybox.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+
+<!-- Add Following Script If reCaptcha V2 is Enabled; Otherwise remove the whole block -->
+<!-- <script src="https://www.google.com/recaptcha/api.js?onload=onReCaptchaLoadCallback&render=explicit" async defer></script> -->
+</body>
+</html>

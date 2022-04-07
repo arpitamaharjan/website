@@ -1,0 +1,27 @@
+.banner {
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(lg) {
+        min-height: 650px
+    }
+
+    @include media-breakpoint-up(xl) {
+        min-height: 800px
+    }
+
+    &-title {
+
+        h1 {
+            @include font-size(45px);
+            font-family: $font-montserrat;
+            font-weight: 600;
+        }
+    }
+
+    &-content {
+        @include font-size(1.25rem);
+        line-height: 2;
+    }
+}

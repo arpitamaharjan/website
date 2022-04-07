@@ -1,0 +1,35 @@
+.site-header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    .navbar {
+        justify-content: space-between;
+
+        &-collapse {
+            flex-grow: 0;
+
+            @include media-breakpoint-down(md) {
+                background-color: azure;
+                z-index: 1;
+            }
+        }
+
+        .nav {
+            &-item.active {
+
+                .nav-link {
+                    color: $strong-cyan;
+                }
+            }
+            &-link {
+                font-family: $font-montserrat;
+                text-transform: uppercase;
+                font-weight: 500;
+                color: $black;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}
